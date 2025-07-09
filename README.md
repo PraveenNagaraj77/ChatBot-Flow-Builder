@@ -30,6 +30,13 @@ A visual chatbot flow editor built using **React**, **React Flow**, and **Tailwi
 - Tailwind CSS
 - React Hot Toast
 
+## Screenshots
+![1](https://github.com/user-attachments/assets/c7325080-3b8f-411f-bf62-7d958e609e4d)
+
+![2](https://github.com/user-attachments/assets/d61b47a9-15ae-4af2-830e-b89bac6cf981)
+
+![3](https://github.com/user-attachments/assets/fcc9148f-7474-4221-8dc6-aed11a761a13)
+
 
 ## 🚀 Getting Started
 
@@ -37,6 +44,6 @@ A visual chatbot flow editor built using **React**, **React Flow**, and **Tailwi
 
 ```bash
 git clone https://github.com/PraveenNagaraj77/ChatBot-Flow-Builder.git
-cd ChatBot-Flow-Builder
+cd ChatBotFlowBuilder
 npm install
 npm run dev
