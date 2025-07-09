@@ -26,6 +26,10 @@ A visual chatbot flow editor built using **React**, **React Flow**, and **Tailwi
 - Tailwind CSS
 - React Hot Toast
 
+## Screenshots
+
+Picture
+
 ## 🚀 Getting Started
 
 ### Installation
