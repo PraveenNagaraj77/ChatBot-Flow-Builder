@@ -1,12 +1,42 @@
-# React + Vite
+# Chatbot Flow Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visual chatbot flow editor built using **React**, **React Flow**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## Live Link 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Chatbot Flow Builder Live](https://chat-bot-flow-builder-orpin.vercel.app/)
 
-## Expanding the ESLint configuration
+## 🔹 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Text Node**: Create and connect simple text message nodes.
+- **Drag & Drop**: Add nodes from the side panel onto the canvas.
+- **Connections**:
+  - One outgoing connection per node (source handle).
+  - Multiple incoming connections allowed (target handle).
+- **Settings Panel**: Edit the message of the selected node.
+- **Save Button**: Validates the chatbot flow.
+- **Reset Flow**: Clears the canvas.
+- **Toast Notifications**: Provides user feedback for actions.
+
+## ✅ Flow Validation Rules
+
+- Must contain at least two nodes.
+- Only one node can be left without an outgoing edge.
+
+## 🛠️ Tech Stack
+
+- Vite + React
+- React Flow
+- Tailwind CSS
+- React Hot Toast
+
+
+## 🚀 Getting Started
+
+### Installation
+
+```bash
+git clone https://github.com/PraveenNagaraj77/ChatBot-Flow-Builder.git
+cd ChatBot-Flow-Builder
+npm install
+npm run dev
