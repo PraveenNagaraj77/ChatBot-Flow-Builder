@@ -44,6 +44,6 @@ A visual chatbot flow editor built using **React**, **React Flow**, and **Tailwi
 
 ```bash
 git clone https://github.com/PraveenNagaraj77/ChatBot-Flow-Builder.git
-cd ChatBot-Flow-Builder
+cd ChatBotFlowBuilder
 npm install
 npm run dev
